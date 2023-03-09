@@ -4,7 +4,7 @@ function solution(babbling) {
 
     for(let i =0; i < copyBabbling.length; i++){
         for(let j=0; j < pronArr.length; j++){
-            copyBabbling[i] =copyBabbling[i].replaceAll(pronArr[j], '1')
+            copyBabbling[i] =copyBabbling[i].replace(pronArr[j], '1')
          }  
 
         if(copyBabbling[i].includes('e')){
